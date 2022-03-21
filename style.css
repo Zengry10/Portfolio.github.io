@@ -278,6 +278,57 @@ section .title_skill::after{
     background: none;
 }
 
+.projectCofe {
+    background-image: url('images/projectImg1.jpg');
+    height: 157px;
+    width: 157px;
+    border: 5px crimson solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.projectKaraoke {
+    background-image: url('images/karaoke.jpg');
+    height: 157px;
+    width: 157px;
+    border: 5px crimson solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.projectFormulaire {
+    background-image: url('images/formulaire.png');
+    height: 157px;
+    width: 157px;
+    border: 5px crimson solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.projectGrowth {
+    background-image: url('images/growth.png');
+    height: 157px;
+    width: 157px;
+    border: 5px crimson solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.projectVelib {
+    background-image: url('images/velib.jpg');
+    height: 157px;
+    width: 157px;
+    border: 5px crimson solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
 /* services section styling */
 .services, .teams{
     color:#fff;
@@ -330,6 +381,7 @@ section .title_skill::after{
 }
 .teams .carousel .card{
     background: #222;
+    height: 360px;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -520,6 +572,10 @@ footer span a:hover{
     margin-bottom: 20px;
     cursor: pointer;
     transition: all .3s linear;
+}
+a {
+
+    color: white;
 }
 .contact-content .item .icon
 {
