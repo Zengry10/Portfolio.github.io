@@ -350,7 +350,9 @@ section .title_skill::after{
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
+    height: 280px;
     transition: all 0.3s ease;
+    
 }
 .services .serv-content .card:hover{
     background: crimson;
